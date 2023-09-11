@@ -6,7 +6,13 @@ export default function App() {
   return (
     <div className="App">
       <header>React random color generator</header>
-      <div style={{ backgroundColor: randomColorGenerator }}>
+      <div
+        style={{
+          backgroundColor: randomColorGenerator,
+          width: '300px',
+          height: '300px',
+        }}
+      >
         Generated Color: {randomColorGenerator}
       </div>
       <button
