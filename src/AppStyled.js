@@ -34,7 +34,8 @@ const Button = styled.button`
   }
   &:active {
     transform: translateY(2px);
-    background-color: white;
+    background-color: grey;
+    border: 2px solid grey;
   }
 `;
 
