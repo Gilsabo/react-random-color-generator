@@ -37,9 +37,7 @@ export default function App() {
           onChange={(event) => {
             const value = event.currentTarget.value;
             setHue(value);
-            setRandomColorGenerator(
-              randomColor({ luminosity: 'light', hue: hue }),
-            );
+            setRandomColorGenerator(randomColor({ hue: hue }));
           }}
         />
         <div>{randomColorGenerator}1</div>
