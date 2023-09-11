@@ -28,6 +28,7 @@ const Button = styled.button`
   cursor: pointer;
   transition: transform 0.1s ease;
   color: black;
+  margin-bottom: 1rem;
   &:hover {
     color: white;
     background-color: black;
